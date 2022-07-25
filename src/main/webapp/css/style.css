@@ -1,0 +1,136 @@
+.custom-bg{
+
+    background: #33b5e5!important;
+}
+.admin .card{
+    
+    border:1px solid #33b5e5;
+    
+}
+.admin .card:hover{
+    background: #e2e2e2;
+    cursor:pointer;
+}
+.list-group-item.active{
+    
+    background: #33b5e5!important;  
+     border:1px solid #33b5e5;
+}
+
+
+
+.discount-lable{
+    font-size: 20px !important;
+    font-style: italic !important;
+    text-decoration: line-through!important;
+    
+}
+.product-card:hover{
+  background: #e2e2e2;
+    cursor:pointer;   
+    
+}
+
+#toast{
+    mid-width:300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+    
+    
+    
+}
+#toast.display{
+    
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+@kayframes fadeIn{
+    from{
+        bottom:0;
+        opacity:0;
+    } 
+    to{
+        bottom:30px;
+        opacity:1;
+    } 
+}
+@keyframes fadeOut{
+    
+    from{
+          bottom:30px;
+        opacity:1;
+       
+    } 
+    to{
+       bottom:0;
+        opacity:0;
+    }  
+    
+    
+}
+
+
+
+
+
+
+
+
+ 
+
+
+/***************/
+
+.quantity  {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity button {
+    width: 30px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+       text-align: center;
+    background: #fff
+}
+.number {
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 30px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.total-price {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.total-price .fa-rupee {
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+ 
